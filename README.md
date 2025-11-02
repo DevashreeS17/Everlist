@@ -40,3 +40,4 @@ Hi! I’m [Devashree](https://github.com/DevashreeS17). I love building interact
 ---
 
 ## 🔗 Live Demo
+https://devashrees17.github.io/Everlist/
