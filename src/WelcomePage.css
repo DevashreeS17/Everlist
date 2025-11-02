@@ -1,0 +1,62 @@
+/* Container styling */
+.welcome-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #cba1f8 0%, #201144 100%);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+/* Content box */
+.welcome-content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* Title with animation */
+.welcome-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  animation: floatFade 3s ease-in-out infinite;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+/* Subtitle */
+.welcome-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+  animation-delay: 1s;
+}
+
+/* Button styling */
+.welcome-btn {
+  background: #fff3c4;
+  color: #333;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.welcome-btn:hover {
+  background: #ffd633;
+}
+
+/* Floating + fade animation for heading */
+@keyframes floatFade {
+  0%   { transform: translateY(0); opacity: 0.6; }
+  50%  { transform: translateY(-10px); opacity: 1; }
+  100% { transform: translateY(0); opacity: 0.8; }
+}
+
+/* Simple fade-in for subtitle */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
