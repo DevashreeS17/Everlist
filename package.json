@@ -1,8 +1,9 @@
 {
-  "homepage": "https://DevashreeS17.github.io/Everlist",
-  "name": "everlist-app",
+  "name": "Everlist",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
+  "homepage": "https://DevashreeS17.github.io/Everlist",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
